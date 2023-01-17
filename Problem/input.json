@@ -1,0 +1,118 @@
+{
+    "categories": [
+        {
+            "name": "Movies",
+            "plays": 55,
+            "subcategories": [
+                {
+                    "name": "Action",
+                    "plays": 30,
+                    "subcategories": [
+                        {
+                            "name": "Die Hard",
+                            "plays": 10
+                        },
+                        {
+                            "name": "Terminator",
+                            "plays": 20,
+                            "subcategories": [
+                                {
+                                    "name": "Terminator 2",
+                                    "plays": 15
+                                },
+                                {
+                                    "name": "Terminator 3",
+                                    "plays": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Comedy",
+                    "plays": 25,
+                    "subcategories": [
+                        {
+                            "name": "Airplane",
+                            "plays": 10
+                        },
+                        {
+                            "name": "Rush Hour",
+                            "plays": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "TV",
+            "plays": 60,
+            "subcategories": [
+                {
+                    "name": "Comedy",
+                    "plays": 30,
+                    "subcategories": [
+                        {
+                            "name": "Seinfeld",
+                            "plays": 20,
+                            "subcategories": [
+                                {
+                                    "name": "Season 1",
+                                    "plays": 10
+                                },
+                                {
+                                    "name": "Season 2",
+                                    "plays": 10
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Friends",
+                            "plays": 10,
+                            "subcategories": [
+                                {
+                                    "name": "Season 1",
+                                    "plays": 5
+                                },
+                                {
+                                    "name": "Season 2",
+                                    "plays": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Drama",
+                    "plays": 10,
+                    "subcategories": [
+                        {
+                            "name": "Lost",
+                            "plays": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "Action",
+                    "plays": 10,
+                    "subcategories": [
+                        {
+                            "name": "24",
+                            "plays": 10
+                        }
+                    ]
+                },
+                {
+                    "name": "Reality",
+                    "plays": 10,
+                    "subcategories": [
+                        {
+                            "name": "Survivor",
+                            "plays": 10
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
