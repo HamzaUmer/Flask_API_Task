@@ -1,0 +1,13 @@
+Create an API endpoint in Flask that takes in a JSON object with the structure shown in the attached “input.json” file. 
+
+This JSON object represents a tree of Movie/TV Show categories and subcategories.
+Each category has a name and a number of plays, as well as an optional list of subcategories.
+
+The endpoint should return the top level (root) category with the most plays, and the leaf subcategory with the most plays. A leaf is a subcategory with no more subcategories below it. If there is a tie, return the category/subcategory that appears first in the JSON object.
+
+Keep in mind that subcategories can be nested arbitrarily deep (subcategories can have subcategories, which also have subcategories etc etc).
+
+For example, in the “input.json” file, the top level category with the most plays is "TV" with 60 plays.
+The leaf subcategory with the most plays is "Terminator 2" with 15 plays.
+
+The desired output for the example input has also been attached in the “output.json” file.
